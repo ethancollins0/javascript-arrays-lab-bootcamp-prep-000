@@ -28,3 +28,11 @@ function appendKitten(name) {
 function prependKitten(name) {
   return kittens.unshift(name)
 }
+
+function removeLastKitten() {
+  return kittens.pop()
+}
+
+function removeFirstKitten() {
+  return kittens.shift()
+}
